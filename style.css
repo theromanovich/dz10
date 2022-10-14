@@ -1,0 +1,411 @@
+li:hover {
+  cursor: img("cursor.jpg");
+}
+header {
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+  height: 80px;
+}
+.nav {
+  margin-left: 50px;
+  padding: 0 50px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+}
+.menu {
+  margin-left: 200px;
+  margin-right: 200px;
+  list-style: none;
+
+  display: flex;
+  align-items: center; /*размещаем по центру меню*/
+}
+.logo {
+  font-family: "Train One";
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-transform: uppercase;
+
+  /* card-name-text */
+
+  color: #282528;
+  text-decoration: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.menu-element {
+  font-family: "Lato", sans-serif;
+  margin-left: 20px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* title/title-subtitle-text */
+
+  color: #3c3c3c;
+}
+.menu-element:hover {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* hover-card */
+
+  color: #18b5dc;
+}
+.button-div__callback {
+  margin-left: 80px;
+  margin-top: 15px;
+}
+.text-div {
+  display: flex;
+  margin-top: 10px;
+}
+.callback {
+  background-color: white;
+  border: 1px solid black;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  width: 120px;
+
+  text-transform: uppercase;
+
+  /* title/title-subtitle-text */
+
+  color: #3c3c3c;
+}
+.callback:hover {
+  background-color: #18b5dc;
+  border-color: #18b5dc;
+  color: white;
+}
+.title-div {
+  display: flex;
+  justify-content: center;
+}
+hr {
+  width: 50px;
+  background: #dddbdb;
+}
+.section__one {
+  width: 100%;
+  background-color: #f6f6f6;
+  height: 800px;
+}
+.main-title {
+  display: flex;
+  margin-top: 100px;
+  /* title */
+
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+
+  /* title/title-subtitle-text */
+
+  color: #3c3c3c;
+}
+
+.span-div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Lato", sans-serif;
+}
+.photo-div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.text-div__title {
+  display: flex;
+}
+.text-div__subtitle {
+  display: flex;
+}
+.name {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* card-name-text */
+
+  color: #282528;
+}
+.subname {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #646464;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-div__title {
+  margin-top: 10px;
+}
+.footer-div-main {
+  display: flex;
+  margin-top: 50px;
+}
+.footer-title {
+  font-family: "Train One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  text-transform: uppercase;
+
+  /* card-name-text */
+
+  color: #282528;
+}
+.footer-list {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-list__element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* title/title-subtitle-text */
+
+  color: #3c3c3c;
+}
+.icons-div {
+  display: flex;
+  justify-content: center;
+}
+.icon-first {
+  background: url(img/twitter.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.icon-second {
+  background: url(img/instagram.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.icon-third {
+  background: url(img/face.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.icon-fourth {
+  background: url(img/lin.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.icon-fifth {
+  background: url(img/telegram.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-first:hover {
+  background: url(img/twitter-hover.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.icon-second:hover {
+  background: url(img/instagram-hover.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.icon-third:hover {
+  background: url(img/facebook.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.icon-fourth:hover {
+  background: url(img/linkedin-hover.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.icon-fifth:hover {
+  background: url(img/telegram-hover.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.footer-list__element:hover {
+  font-family: sans-serif;
+  color: #18b5dc;
+}
+.footer-div__title:hover {
+  cursor: img("cursor.jpg");
+}
+.alex-photo {
+  background: url(img/alex.jpg);
+  width: 270px;
+  height: 270px;
+
+}
+
+.john-photo {
+  background: url(img/pexels-stefan-stefancik-91227.jpg);
+  width: 270px;
+  height: 270px;
+
+
+}
+.elena-photo {
+  background: url(img/elena.jpg);
+  width: 270px;
+  height: 270px;
+  
+}
+.lily-photo {
+  background: url(img/lily.jpg);
+  width: 270px;
+  height: 270px;
+
+
+}
+
+.alex-photo__background {
+  height: 100%;
+  width: 100%;
+  background-color: #5dcbe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+.alex-photo:hover .alex-photo__background {
+  opacity: 1;
+}
+
+.john-photo__background {
+  height: 100%;
+  width: 100%;
+  background-color: #5dcbe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+.john-photo:hover .john-photo__background {
+  opacity: 1;
+}
+.elena-photo__background {
+  height: 100%;
+  width: 100%;
+  background-color: #5dcbe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+.elena-photo:hover .elena-photo__background {
+  opacity: 1;
+}
+
+.lily-photo__background {
+  height: 100%;
+  width: 100%;
+  background-color: #5dcbe6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+.lily-photo:hover .lily-photo__background {
+  opacity: 1;
+}
+.background-image__twitter {
+  width: 50px;
+  height: 50px;
+  background: url(img/twitter-hover.png);
+  background-repeat: no-repeat;
+}
+.background-image__twitter:hover {
+  width: 50px;
+  height: 50px;
+  background: url(img/twitter.png);
+  background-repeat: no-repeat;
+}
+.background-image__facebook {
+  width: 50px;
+  height: 50px;
+  background: url(img/facebook.png);
+  background-repeat: no-repeat;
+}
+.background-image__facebook:hover {
+  width: 50px;
+  height: 50px;
+  background: url(img/face.png);
+  background-repeat: no-repeat;
+}
+.background-image__instagram {
+  width: 50px;
+  height: 50px;
+  background: url(img/instagram-hover.png);
+  background-repeat: no-repeat;
+}
+.background-image__instagram:hover {
+  width: 50px;
+  height: 50px;
+  background: url(img/instagram.png);
+  background-repeat: no-repeat;
+}
